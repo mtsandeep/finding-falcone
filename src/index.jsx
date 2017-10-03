@@ -2,10 +2,11 @@ import React from 'react';
 import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 
+import Home from 'containers/home';
 
 const renderApp = () => render(
   <AppContainer>
-    <p>Home Page</p>
+    <Home />
   </AppContainer>,
   document.getElementById('root'),
 );
